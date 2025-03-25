@@ -30,9 +30,8 @@ export const VideoItem = ({ uri }: any) => {
         ref={videoRef}
         source={{ uri }}
         style={styles.video}
-        useNativeControls // Muestra controles nativos (play, pausa, etc.)
+        useNativeControls
         resizeMode={ResizeMode.CONTAIN}
-        isLooping
       />
       {/* Botón para activar pantalla completa */}
       <TouchableOpacity
